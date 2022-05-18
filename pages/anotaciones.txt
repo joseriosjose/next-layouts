@@ -1,0 +1,6 @@
+el nombre de los archivos hacen referencia a las rutas en la url 
+
+ejemplo archivos:
+index.jsx = localhost /
+holamundo.jsx = localhost/holamundo
+
