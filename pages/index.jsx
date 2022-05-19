@@ -1,4 +1,5 @@
 import Head from "next/head"; 
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 /**es obligatorio que las paginas sean exportaciones por defecto */
@@ -14,7 +15,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ir a <a href="/about">About!</a>
+        {/*ir a <a href="/about">About!</a>*/}
+        Ir a <Link href={"/about"}>About</Link>
         </h1>
 
         <p className={styles.description}>

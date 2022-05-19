@@ -4,3 +4,20 @@ ejemplo archivos:
 index.jsx = localhost /
 holamundo.jsx = localhost/holamundo
 
+
+/**se puede tener dos Head puesto a que cada uno sobrescribe el objeto head */
+ <Head>
+        <title>About - Jose Rios</title>
+        <meta name="description" content="About Page" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head> 
+      <Head>
+        <meta name="keywords" content="Jose, next.js, curso, practica" />
+      </Head>
+
+-Ocupar el static generation cuando las paginas no cambian ejemplo la pagina de About
+ 
+static generation se genean en el tiempo de construccion solamente una vez.
+
+
+
