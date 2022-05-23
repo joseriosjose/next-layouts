@@ -8,7 +8,7 @@ export const Navbar = () => {
     <nav className={styles["menu-container"]}>
       <ActiveLink text="Home" href="/" />
       <ActiveLink text="About" href="/about" />
-      <ActiveLink text="contact" href="/contact" />
+      <ActiveLink text="Contact" href="/contact" />
     </nav>
   );
 };
