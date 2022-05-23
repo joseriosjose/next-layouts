@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Navbar } from "../components/Navbar";
-import styles from "../styles/Home.module.css";
+import { Navbar } from "../../components/Navbar";
+import styles from "../../styles/Home.module.css";
 
 /**se puede tener dos Head puesto a que cada uno sobrescribe el objeto head */
 export default function contact() {
