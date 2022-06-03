@@ -3,7 +3,7 @@ import { MainLayout } from "../components/layout/MainLayout";
 
 /**es obligatorio que las paginas sean exportaciones por defecto */
 /**el nombre del archivo con el de la clase pueden no ser el mismo */
-export default function Home() {
+export default function HomePage() {
   return (
     <MainLayout>
       <h1>Home page</h1>
